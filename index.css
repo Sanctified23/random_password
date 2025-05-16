@@ -45,3 +45,15 @@
     transition: background-color 500ms ease;
     background-color: aquamarine;
 }
+
+.error {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    background-color: antiquewhite;
+}
+
+.text-error {
+    color: red;
+    text-align: center;
+}
