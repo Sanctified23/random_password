@@ -1,0 +1,47 @@
+.randomizer{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.randomizer_wrapper {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 2rem;
+        max-width: 600px;
+        width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.randomizer__wrapper-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.randomizer__wrapper-params {
+
+}
+
+.randomizer__button {
+    width: 100%;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    transition: background-color 500ms ease-out;
+}
+.randomizer__button:hover{
+    transition: background-color 500ms ease;
+    background-color: aquamarine;
+}
